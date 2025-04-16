@@ -1,0 +1,28 @@
+fieldset{
+height:775px;
+width:50%;
+border-color:black;
+border: 1px;
+background-color:brown;
+padding-right:80px;
+float:center;
+border:1px solid;
+margin:20%;
+border-radius:30px;
+}
+li{
+display:inline;
+}
+#one{
+color:white;
+align:left;
+}
+#two{
+color:white;
+margin-left:25%;
+}
+#three{
+color:white;
+margin-left:36%;
+font-size:30px;
+}

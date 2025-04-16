@@ -1,0 +1,23 @@
+body{
+background-color:black;
+text-align:center;
+}
+.h1{
+font-size:60px;
+    color:blue;
+    font-family:Algerian;
+}
+#h1{
+font-size:30px;
+    color:red;
+    font-family:Algerian;
+    text-align:right;
+}
+.one{
+    margin-top:15%;
+    margin-right:10%;
+    margin-left:10%;
+    border:10px solid navy;
+    padding-right:10%;
+    background:white;
+}
