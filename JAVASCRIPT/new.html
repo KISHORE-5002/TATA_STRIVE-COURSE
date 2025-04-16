@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>new</title>
+</head>
+<body>
+<center><h1 id="heading" class="headingColor">TATA STRIVE</h1></center>
+<div id="content" class="contentColor"></div>
+<div id="title" class="titleColor"></div>
+
+<script>
+    document.getElementById("heading").addEventListener("click",function(){
+    document.body.style.backgroundColor="grey";
+    document.querySelector(".contentColor").style.color="green";
+    document.querySelector(".headingColor").style.color="brown";
+    document.querySelector(".titleColor").style.color="red";
+    changeText()
+
+    document.getElementById("heading").innerText="COURSE";
+    })
+    function changeText(){
+    let list=document.createElement("p")
+    list.innerText="COURSE LIST";
+    document.getElementById("content").appendChild(list);
+    changeTitle()
+}
+
+    function changeTitle(){
+    let list1=document.createElement("h4")
+    list1.innerText="JAVA";
+    document.getElementById("content").appendChild(list1);
+}
+
+
+</script>
+
+</body>
+</html>

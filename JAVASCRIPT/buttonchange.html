@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>button</title>
+</head>
+<body>
+<h1 id="heading">welcome to tata strive</h1>
+<button onclick="changeText()">click here</button>
+
+
+
+
+
+<h2 id="change">kichu</h2>
+<button onclick="originalName()">change</button>
+
+
+
+<button class="btn">queryselector</button>
+
+
+
+<button onclick="addText()">add elements</button>
+<div id="content"></div>
+
+
+
+<button id="bgColor">submit color change</button>
+<script>
+    function changeText(){
+    document.getElementById("heading").innerText="thank you for the vist";
+    }
+
+
+
+
+
+    function originalName(){
+    document.getElementById("change").innerText="Kishore";
+    }
+
+
+    document.querySelector(".btn").style.backgroundColor="hsl(122.6,68.6%,60%)";
+
+
+
+    function addText(){
+    let par=document.createElement("p")
+    par.innerText="data element added";
+    document.getElementById("content").appendChild(par);
+    }
+
+
+
+    document.getElementById("bgColor").addEventListener("click",function(){
+    document.body.style.backgroundColor="blue";
+    })
+</script>
+</body>
+</html>

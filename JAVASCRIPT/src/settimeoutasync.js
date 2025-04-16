@@ -1,0 +1,6 @@
+console.log("hi")
+setTimeout(()=>{console.log("hello")},3000)
+console.log("welcome")
+setTimeout(()=>{console.log("hell time out")},3000)
+setTimeout(()=>{console.log("time out")},1500)
+setTimeout(()=>{console.log(" time ")},1000)

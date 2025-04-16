@@ -1,0 +1,8 @@
+{
+  "name": "JAVASCRIPT",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "mocha": "^11.1.0"
+  }
+}
